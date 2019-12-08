@@ -18,7 +18,7 @@ img.icon {
 }
 
 button {
-  padding: 0.5rem;
+  padding: 1rem;
   width: 100%;
   background: rgb(187, 137, 145);
   color: white;
@@ -33,6 +33,7 @@ button {
   position: relative;
   padding: 1rem 1.5rem;
   border: 2px solid rgb(228, 176, 184);
+  box-shadow: 0 3px rgba(228, 176, 184, 0.4);
   color: rgb(36, 70, 133);
   font-weight: bold;
   margin: 0.5rem 0;
