@@ -18,11 +18,17 @@ export default () => {
         <button onClick={newIds}>generate new ids</button>
       </header>
 
-      {ids.map(id => (
-        <div className="an-id" key={id}>
-          {id}
-        </div>
-      ))}
+      <div className="ids">
+        {ids.map(id => (
+          <div className="id" key={id}>
+            {id}
+          </div>
+        ))}
+      </div>
+
+      <div className="gh-link">
+        <a href="https://github.com/jmsv/cuteid-pwa">cuteid GitHub</a>
+      </div>
     </div>
   )
 }
